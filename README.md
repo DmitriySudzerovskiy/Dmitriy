@@ -1,7 +1,7 @@
 # My first code in GidHub
 import random
 
-class coin:
+class Coin:
     def __init__(self):
         self.name = input("input name")
         self.win = False
@@ -19,5 +19,5 @@ class coin:
             print("player2=" + str(enemy.number))
             print("player2 is win")
 
-player1 = BlackJack()
-player2 = BlackJack()
+player1 = Coin()
+player2 = Coin()
